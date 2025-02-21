@@ -1,0 +1,86 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+**/node_modules/
+**/npm-debug.log
+**/yarn-debug.log
+**/yarn-error.log
+**/pnpm-debug.log
+**/pnpm-error.log
+
+# Build files
+**/dist/
+**/build/
+**/.expo/
+**/.expo-shared/
+**/.parcel-cache/
+**/.turbo/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+
+# Logs
+**/logs/
+**/*.log
+**/debug.log
+**/error.log
+**/out.log
+**/pidfile
+**/npm-debug.log*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+
+# Mac/Linux swap and cache files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.cache
+*.DS_Store
+
+# Spring Boot (Java) specific ignores
+backend/springBoot/target/
+backend/springBoot/.mvn/
+backend/springBoot/mvnw*
+backend/springBoot/.gradle/
+backend/springBoot/*.jar
+backend/springBoot/*.war
+backend/springBoot/logs/
+
+# FastAPI (Python) specific ignores
+backend/fastAPI/__pycache__/
+backend/fastAPI/.venv/
+backend/fastAPI/venv/
+backend/fastAPI/.mypy_cache/
+backend/fastAPI/.pytest_cache/
+backend/fastAPI/.coverage
+backend/fastAPI/coverage.xml
+backend/fastAPI/.tox/
+backend/fastAPI/.ruff_cache/
+
+# React & React Native specific ignores
+frontEnd/webView/.next/
+frontEnd/webView/.vercel/
+frontEnd/webView/.cache/
+frontEnd/mobileView/.expo/
+frontEnd/mobileView/.expo-shared/
+frontEnd/mobileView/.gradle/
+frontEnd/mobileView/android/
+frontEnd/mobileView/ios/
+frontEnd/mobileView/*.apk
+frontEnd/mobileView/*.aab
+frontEnd/mobileView/fastlane/
+
+# Ignore package-lock and yarn.lock if using pnpm
+**/package-lock.json
+**/yarn.lock
