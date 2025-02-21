@@ -1,9 +1,9 @@
-package controller;
+package org.niroshan.chatai.controller;
 
-import model.Task;
+import org.niroshan.chatai.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import searvice.TaskSearvice;
+import org.niroshan.chatai.searvice.TaskSearvice;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,10 +16,6 @@ public class TaskController {
     @Autowired
     private TaskSearvice taskSearvice;
 
-    @GetMapping
-    public String welcomeMessage() {
-        return "Task Management API is running!";
-    }
 
     @GetMapping("/{userId}")
     public List<Task> getAllTasks(@PathVariable String userId){

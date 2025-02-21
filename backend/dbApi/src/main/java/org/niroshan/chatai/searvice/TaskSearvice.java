@@ -1,9 +1,9 @@
-package searvice;
+package org.niroshan.chatai.searvice;
 
-import model.Task;
+import org.niroshan.chatai.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.TaskRepository;
+import org.niroshan.chatai.repository.TaskRepository;
 
 import java.util.List;
 import java.util.Optional;

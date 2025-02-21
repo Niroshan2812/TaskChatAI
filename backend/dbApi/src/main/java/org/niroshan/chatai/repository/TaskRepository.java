@@ -1,6 +1,6 @@
-package repository;
+package org.niroshan.chatai.repository;
 
-import model.Task;
+import org.niroshan.chatai.model.Task;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
